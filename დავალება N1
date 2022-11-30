@@ -12,6 +12,19 @@ newnumber.forEach(function(x){
  })
  console.log(y);
  
+ // reduce მეთოდით
+ const array1 = [1, -2, 3, 4];
+let newnumber = array1.filter(item => item > 0);
+console.log(newnumber)
+const initialValue = 0;
+const sumWithInitial = newnumber.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+console.log(sumWithInitial);
+
+ 
+ 
  
 //N2) შექმენით მასივი,რომელიც შედგება სტრინგებისგან(რომლებიც შეიძლება განმეორდეს). 
 //დაწერეთ კოდი,რომელიც დაითვლის  რამდენჯერ მეორდება თითოეული სტრინგი მასივში და დააბრუნეთ ობიექტის სახით, 
