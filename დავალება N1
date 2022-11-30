@@ -1,0 +1,16 @@
+
+//1) შექმენით მასივი,რომელიც შეიცავს როგორც დადებით ასევე უარყოფით რიცხვებს.
+// გაფილტრეთ მოცემული მასივი შემდეგ კი დაითვალეთ მხოლოდ დადებითი რიცხვების ჯამი. 
+// გამოიყენეთ მასივის filter და reduce მეთოდები.
+let numbers = [-2, 5, 10, -5, -1, 1, 3, 4, -15];
+let newnumber = numbers.filter(item => item > 0);
+console.log(newnumber)
+
+let y = 0;
+newnumber.forEach(function(x){
+    y =y + x;
+ })
+ console.log(y);
+ 
+ 
+ დავა
